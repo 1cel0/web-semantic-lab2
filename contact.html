@@ -8,11 +8,11 @@
     <body>     
         <header role="banner">         
             <h1>ติดต่อเรา</h1>         
-            <nav role="navigation">             
-                <ul>                 
-                    <li><a href="index.html">หน้าหลัก</a></li>                 
-                    <li><a href="contact.html">ติดต่อเรา</a></li>             
-                </ul>         
+            <nav role="navigation" aria-label="เมนูหลัก"> 
+                <ul> 
+                    <li><a href="index.html" aria-current="page">หน้าหลัก</a></li> 
+                    <li><a href="contact.html">ติดต่อเรา</a></li> 
+                </ul> 
             </nav>     
         </header>      
         <main role="main">         
@@ -21,9 +21,6 @@
                 <!-- ฟอร์มจะถูกเพิ่มที่นี่ -->         
                 </section>     
             </main>      
-            <footer role="contentinfo">         
-                <p>&copy; 2024 เว็บเทคโนโลยี. สงวนลิขสิทธิ์.</p>     
-            </footer> 
         </body>
         <form action="/submit" method="POST" role="form" aria-label="แบบฟอร์มติดต่อ"> 
             <div class="form-group">     
@@ -80,6 +77,9 @@
             aria-label="ส่งข้อความ">
             ส่งข้อความ
         </button> 
-            </div>      
-        </form>  
+            </div>       
+        </form>
+        <footer role="contentinfo">         
+            <p>&copy; 2024 เว็บเทคโนโลยี. สงวนลิขสิทธิ์.</p>     
+        </footer>   
         </html> 
